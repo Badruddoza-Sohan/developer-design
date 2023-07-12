@@ -1,0 +1,175 @@
+body{
+    font-family: 'Open Sans', sans-serif; 
+}
+
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+}
+.nav title{
+    color: black;
+    font-size: 45px;
+    font-weight: 800;
+
+}
+.orange{
+    color: purple;
+}
+.btn-primary{
+    background: purple;
+    border: 0;
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+    padding: 10px 25px;
+    border-radius: 5px;
+    
+    
+
+}
+nav >ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: gray;
+}
+.header{
+    background: rgba(229, 84, 115, 0.10);
+}
+.banner{
+    padding: 30px 30px 0 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+
+}
+.banner .profile pic{
+    width: 500px;
+    position: relative;
+}
+.saiba{
+    font-size: 85px;
+    
+    font-weight: 700;
+    
+    margin-bottom: 20px;
+}
+.ridoy{
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+.banner-content{
+    max-width: 500px;
+    padding-bottom: 30px;
+}
+main{
+    padding: 0 100px 0 100px;
+}
+
+
+.section-title{
+    color: black;
+    text-align: center;
+    font-size: 35px;
+    font-weight:700;
+}
+.section-description{
+    color: black;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+#featured-flowers{
+    padding: 30px 150px;
+}
+.flowers-container{
+    display: flex;
+    
+}
+.flower{
+    display: flex;
+    
+}
+.sale{
+    padding: 30px 30px 20px 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.second{
+    
+background: rgba(229, 84, 115, 0.05);
+}
+.second .glass{
+    width: 300px;
+    position: relative;
+}
+.red{
+    color: red;
+}
+.button{
+    background: purple;
+    border: 0;
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+    padding: 10px 25px;
+    border-radius: 5px;
+    
+}
+.rose >ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin-right: 10px;
+}
+.rose{
+  background: rgba(229, 84, 115, 0.05);  
+}
+
+
+    
+
+.section-description{
+    align-items: center;
+}
+.background{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 50vh;
+    
+    
+    
+
+    background-image: url('Rectangle\ 9.png');
+}
+.yellow{
+    color: brown;
+}
+.last{
+    text-align: center;
+}
+footer{
+    text-align: center;
+    background: yellowgreen;
+    
+}
+.fclass{
+    display: flex;
+    justify-content: space-around;
+}
